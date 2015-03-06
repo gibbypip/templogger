@@ -5,7 +5,7 @@ import subprocess
 #get the outside temp
 #to get the local station go to http://w1.weather.gov/xml/current_obs/seek.php 
 #and get the 4 letter station, input below
-noaa_result = pywapi.get_weather_from_noaa('KBMI')
+noaa_result = pywapi.get_weather_from_noaa('KKKK')
 
 #Get the USB temp, retry a couple of times if we can't query the device
 trycount = 0
